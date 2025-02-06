@@ -4,8 +4,8 @@ const palette = macchiato;
 const default_config = {
   overrideStorage: true,
   temperature: {
-    location: "London",
-    scale: "C",
+    location: "Cincinnati",
+    scale: "F",
   },
   clock: {
     format: "h:i p",
@@ -40,15 +40,15 @@ const default_config = {
           name: "workspace",
           links: [
             {
-              name: "gmail",
-              url: "https://mail.google.com",
-              icon: "brand-gmail",
+              name: "proton mail",
+              url: "https://mail.proton.me/",
+              icon: "Mail-Filled",
               icon_color: palette.green,
             },
             {
-              name: "calendar",
-              url: "https://calendar.google.com",
-              icon: "calendar-filled",
+              name: "omg.lol",
+              url: "https://omg.lol",
+              icon: "heart-filled",
               icon_color: palette.peach,
             },
             {
