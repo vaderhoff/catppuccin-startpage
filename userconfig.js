@@ -97,17 +97,17 @@ const default_config = {
               icon: "circle-triangle",
               icon_color: palette.peach,
             },
-            {
-              name: "stackoverflow",
-              url: "https://stackoverflow.com",
-              icon: "brand-stackoverflow",
-              icon_color: palette.red,
-            },
           ],
         },
         {
           name: "challenges",
           links: [
+            {
+              name: "hack_the_box",
+              url: "https://www.hackthebox.com",
+              icon: "box",
+              icon_color: palette.red,
+            },
             {
               name: "kaggle",
               url: "https://www.kaggle.com",
@@ -121,12 +121,6 @@ const default_config = {
               icon_color: palette.peach,
             },
             {
-              name: "exercism",
-              url: "https://exercism.org",
-              icon: "code-minus",
-              icon_color: palette.red,
-            },
-            {
               name: "aoc",
               url: "https://adventofcode.com",
               icon: "brand-linktree",
@@ -138,28 +132,22 @@ const default_config = {
           name: "resources",
           links: [
             {
-              name: "dou",
-              url: "https://dou.ua",
-              icon: "brand-prisma",
-              icon_color: palette.green,
-            },
-            {
               name: "hackernews",
               url: "https://news.ycombinator.com",
               icon: "brand-redhat",
               icon_color: palette.peach,
             },
             {
-              name: "uber engineering",
-              url: "https://www.uber.com/en-GB/blog/london/engineering",
-              icon: "brand-uber",
-              icon_color: palette.red,
-            },
-            {
               name: "netflix tech blog",
               url: "https://netflixtechblog.com",
               icon: "brand-netflix",
               icon_color: palette.blue,
+            },
+            {
+              name: "miniflux",
+              url: "miniflux.vaderhoff.com",
+              icon: "book",
+              icon_color: palette.red,
             },
           ],
         },
@@ -231,28 +219,22 @@ const default_config = {
           name: "video",
           links: [
             {
-              name: "anilist",
-              url: "https://anilist.co/home",
-              icon: "brand-funimation",
+              name: "dropout.tv",
+              url: "http://dropout.tv",
+              icon: "brand-dropout",
               icon_color: palette.green,
+            },
+            {
+              name: "jellyfin",
+              url: "jellyfin.vaderhoff.com",
+              icon: "tv",
+              icon_color: palette.blue,
             },
             {
               name: "youtube",
               url: "https://www.youtube.com",
               icon: "brand-youtube",
               icon_color: palette.peach,
-            },
-            {
-              name: "patreon",
-              url: "https://www.patreon.com",
-              icon: "brand-patreon",
-              icon_color: palette.red,
-            },
-            {
-              name: "kyivstar",
-              url: "https://tv.kyivstar.ua",
-              icon: "star-filled",
-              icon_color: palette.blue,
             },
           ],
         },
