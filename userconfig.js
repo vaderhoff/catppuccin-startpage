@@ -52,51 +52,27 @@ const default_config = {
               icon_color: palette.peach,
             },
             {
-              name: "sheets",
-              url: "https://docs.google.com/spreadsheets",
-              icon: "table",
-              icon_color: palette.red,
-            },
-            {
-              name: "drive",
-              url: "https://drive.google.com/drive/home",
-              icon: "brand-google-drive",
-              icon_color: palette.blue,
+              name: "twitch",
+              url: "https://twitch.tv",
+              icon: "twitch",
+              icon_color: palette.purple,
             },
           ],
         },
         {
-          name: "media",
+          name: "homelab",
           links: [
             {
-              name: "уп",
-              url: "https://www.pravda.com.ua",
+              name: "namecheap",
+              url: "https://www.namecheap.com",
               icon: "news",
               icon_color: palette.green,
             },
             {
-              name: "mil.in.ua",
-              url: "https://mil.in.ua",
+              name: "linode",
+              url: "https://cloud.linode.com/linodes",
               icon: "badge-filled",
               icon_color: palette.peach,
-            },
-            {
-              name: "куток",
-              url: "https://kutok.io",
-              icon: "border-radius",
-              icon_color: palette.red,
-            },
-            {
-              name: "ґрунт",
-              url: "https://grnt.media",
-              icon: "eye-bolt",
-              icon_color: palette.blue,
-            },
-            {
-              name: "village",
-              url: "https://www.village.com.ua",
-              icon: "home-2",
-              icon_color: palette.mauve,
             },
           ],
         },
@@ -107,7 +83,7 @@ const default_config = {
       background_url: "src/img/banners/cbg-07.gif",
       categories: [
         {
-          name: "development",
+          name: "hobby",
           links: [
             {
               name: "github",
@@ -116,8 +92,8 @@ const default_config = {
               icon_color: palette.green,
             },
             {
-              name: "neptune",
-              url: "https://ui.neptune.ai",
+              name: "chatgpt",
+              url: "https://chatgpt.com",
               icon: "circle-triangle",
               icon_color: palette.peach,
             },
@@ -197,16 +173,22 @@ const default_config = {
           name: "social media",
           links: [
             {
-              name: "telegram",
-              url: "https://web.telegram.org",
-              icon: "brand-telegram",
+              name: "lemmy",
+              url: "https://sh.itjust.works/",
+              icon: "news",
               icon_color: palette.green,
             },
             {
-              name: "facebook",
-              url: "https://www.facebook.com",
-              icon: "brand-facebook",
+              name: "mastodon",
+              url: "https://social.lol/home",
+              icon: "badge-filled",
               icon_color: palette.peach,
+            },
+            {
+              name: "pixelfed",
+              url: "https://pixelfed.social/",
+              icon: "border-radius",
+              icon_color: palette.red,
             },
             {
               name: "reddit",
